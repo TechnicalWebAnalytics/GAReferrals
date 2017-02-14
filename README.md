@@ -1,3 +1,5 @@
+
+
 Description
 -----------
 
@@ -15,9 +17,9 @@ Authorize your GA account
 
 Parameters
 ----------
- - view: the GA view id you are extracting the data from 
- - startDate /  endDate: your preferred date range 
- - urls: this needs to be passed as a list 
+ - **view**: the GA view id you are extracting the data from 
+ - **startDate /  endDate**: your preferred date range 
+ - **urls**: this needs to be passed as a list 
 	 - example: `urls <- c( "l.facebook.com", "lm.facebook.com" )`
 
 Function
@@ -27,8 +29,7 @@ see GAReferrals.R
 
 Example
 -------
-    view <- c(
-      "1234567")
+    view <- "1234567"
     
     startDate <- "2017-01-01"
     endDate <- "2017-01-31"
